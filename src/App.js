@@ -170,7 +170,7 @@ const updateUserName =(name)=>{
       {newUser && <input type="text"onBlur={handleBlurChange}  name="name" placeholder="your name"/>}<br/>
     <input type="text" onBlur={handleBlurChange} name="email" placeholder='email' required/><br/>
      <input type="password" onBlur={handleBlurChange} name="password" placeholder="password" required/><br/>
-     <input type="submit" value="submit"/>
+     <input type="submit" value={newUser ? 'sign up' :'sign in'}/>
 
 
 
